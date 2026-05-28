@@ -1,0 +1,91 @@
+{
+  "name": "1",
+  "files": [
+    {
+      "path": "D:/FileHelper/assets/add_category.svg",
+      "name": "add_category.svg",
+      "added_time": "2026-05-28 10:42:18",
+      "type": ".svg",
+      "size": 251
+    },
+    {
+      "path": "D:/FileHelper/assets/add_file.svg",
+      "name": "add_file.svg",
+      "added_time": "2026-05-28 10:42:18",
+      "type": ".svg",
+      "size": 357
+    },
+    {
+      "path": "D:/FileHelper/assets/category.svg",
+      "name": "category.svg",
+      "added_time": "2026-05-28 10:42:18",
+      "type": ".svg",
+      "size": 295
+    },
+    {
+      "path": "D:/FileHelper/assets/delete.svg",
+      "name": "delete.svg",
+      "added_time": "2026-05-28 10:42:18",
+      "type": ".svg",
+      "size": 376
+    },
+    {
+      "path": "D:/FileHelper/assets/file_icon.svg",
+      "name": "file_icon.svg",
+      "added_time": "2026-05-28 10:42:18",
+      "type": ".svg",
+      "size": 460
+    },
+    {
+      "path": "D:/FileHelper/assets/file_info.svg",
+      "name": "file_info.svg",
+      "added_time": "2026-05-28 10:42:18",
+      "type": ".svg",
+      "size": 289
+    },
+    {
+      "path": "D:/FileHelper/assets/file_size.svg",
+      "name": "file_size.svg",
+      "added_time": "2026-05-28 10:42:18",
+      "type": ".svg",
+      "size": 303
+    },
+    {
+      "path": "D:/FileHelper/assets/file_time.svg",
+      "name": "file_time.svg",
+      "added_time": "2026-05-28 10:42:18",
+      "type": ".svg",
+      "size": 243
+    },
+    {
+      "path": "D:/FileHelper/assets/open_file.svg",
+      "name": "open_file.svg",
+      "added_time": "2026-05-28 10:42:18",
+      "type": ".svg",
+      "size": 312
+    },
+    {
+      "path": "D:/FileHelper/assets/open_folder.svg",
+      "name": "open_folder.svg",
+      "added_time": "2026-05-28 10:42:18",
+      "type": ".svg",
+      "size": 334
+    },
+    {
+      "path": "D:/FileHelper/assets/remove_file.svg",
+      "name": "remove_file.svg",
+      "added_time": "2026-05-28 10:42:18",
+      "type": ".svg",
+      "size": 290
+    },
+    {
+      "path": "D:/FileHelper/assets/rename.svg",
+      "name": "rename.svg",
+      "added_time": "2026-05-28 10:42:18",
+      "type": ".svg",
+      "size": 230
+    }
+  ],
+  "created_time": "2026-05-28 10:41:58",
+  "description": ""
+}

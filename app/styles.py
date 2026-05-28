@@ -1,0 +1,96 @@
+"""配色及样式表统一适配深/浅色"""
+
+LIGHT_STYLE = {
+    "background": "#f0f0f0",
+    "category_btn_bg": "#2196F3",
+    "category_btn_bg_hover": "#1976D2",
+    "category_btn_bg_pressed": "#1565C0",
+    "category_btn_bg_selected": "#0D47A1",
+    "category_btn_border_selected": "#FFC107",
+    "add_btn_bg": "#4CAF50",
+    "add_btn_bg_hover": "#45a049",
+    "add_btn_bg_pressed": "#3d8b40",
+    "text": "#222",
+    "status_bg": "#e0e0e0",
+    "status_fg": "#333",
+    "file_bg": "#fff",
+    "file_border": "#ddd",
+    "file_item_bg": "#fafafa",
+    "file_item_bg_hover": "#f0f0f0",
+    "file_item_selected_bg": "#E3F2FD",
+    "file_info_bg": "#f8f8f8",
+    "file_info_border": "#ccc",
+    "rename_btn_bg": "#FF9800",
+    "rename_btn_bg_hover": "#F57C00",
+    "delete_btn_bg": "#f44336",
+    "delete_btn_bg_hover": "#D32F2F",
+    "add_file_btn_bg": "#9C27B0",
+    "add_file_btn_bg_hover": "#7B1FA2",
+    "open_file_btn_bg": "#2196F3",
+    "open_file_btn_bg_hover": "#1976D2",
+    "open_folder_btn_bg": "#4CAF50",
+    "open_folder_btn_bg_hover": "#45a049",
+    "remove_file_btn_bg": "#f44336",
+    "remove_file_btn_bg_hover": "#D32F2F",
+    "toolbar_label_fg": "#222",
+    "file_name_fg": "#222",
+    "file_path_fg": "#666",
+    "file_icon_bg": "#E2E8F0",
+    "file_icon_border": "#CBD5E1",
+    "info_section_bg": "#fff",
+    "info_label_fg": "#333",
+    "info_value_fg": "#555",
+    "info_icon_fg": "#666"
+}
+
+DARK_STYLE = {
+    "background": "#232629",
+    "category_btn_bg": "#2979FF",
+    "category_btn_bg_hover": "#1565C0",
+    "category_btn_bg_pressed": "#0D47A1",
+    "category_btn_bg_selected": "#1565C0",
+    "category_btn_border_selected": "#FFD600",
+    "add_btn_bg": "#43A047",
+    "add_btn_bg_hover": "#388E3C",
+    "add_btn_bg_pressed": "#1B5E20",
+    "text": "#e6e6e6",
+    "status_bg": "#33373a",
+    "status_fg": "#d5d5d5",
+    "file_bg": "#282c34",
+    "file_border": "#444",
+    "file_item_bg": "#2d3035",
+    "file_item_bg_hover": "#353940",
+    "file_item_selected_bg": "#1a2332",
+    "file_info_bg": "#222428",
+    "file_info_border": "#444",
+    "rename_btn_bg": "#FB8C00",
+    "rename_btn_bg_hover": "#F57C00",
+    "delete_btn_bg": "#e53935",
+    "delete_btn_bg_hover": "#b71c1c",
+    "add_file_btn_bg": "#AB47BC",
+    "add_file_btn_bg_hover": "#8E24AA",
+    "open_file_btn_bg": "#42A5F5",
+    "open_file_btn_bg_hover": "#1E88E5",
+    "open_folder_btn_bg": "#66BB6A",
+    "open_folder_btn_bg_hover": "#43A047",
+    "remove_file_btn_bg": "#EF5350",
+    "remove_file_btn_bg_hover": "#E53935",
+    "toolbar_label_fg": "#d8d8d8",
+    "file_name_fg": "#e0e0e0",
+    "file_path_fg": "#999",
+    "file_icon_bg": "#3a3f4b",
+    "file_icon_border": "#555",
+    "info_section_bg": "#2a2d31",
+    "info_label_fg": "#ccc",
+    "info_value_fg": "#999",
+    "info_icon_fg": "#888"
+}
+
+def get_palette_mode(app):
+    """检测系统主题模式"""
+    color = app.palette().window().color()
+    return 'dark' if color.value() < 128 else 'light'
+
+def get_style(mode):
+    """获取对应主题的样式字典"""
+    return DARK_STYLE if mode == 'dark' else LIGHT_STYLE
